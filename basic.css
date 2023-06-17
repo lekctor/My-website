@@ -1,0 +1,172 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #C0C0C0;
+}
+
+.logo img {
+    width: 48px;
+    height: 48px;
+    vertical-align: middle;
+  }
+  
+  .logo {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .logo-text {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 22px;
+color: #282828;
+  }
+
+.nav-item {
+    margin: 10px;
+    display: inline-block;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: black;
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+}
+.container{
+
+}
+
+
+.website {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #582066;
+}
+
+.firststeps {
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 34px;
+line-height: 55px;
+color: #3D495E;
+align-self: stretch;
+}
+
+.Story {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    font-family: 'Inter', sans-serif;
+}
+.button {
+    display: flex;
+    align-items:center;
+    padding: 22px 24px;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(44, 42, 42);
+    border-radius: 16px;
+    width: 132px;
+    justify-content: center;
+    margin-left: 112px;
+    
+}
+
+.button-text {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+text-align: center;
+color: #FFFFFF;
+margin-right: 12px;
+}
+
+.button-img {
+    width: 24px;
+height: 23.12px;
+}
+
+.photo {
+    border-radius: 56px;
+    width: 409px;
+    height: 514px;
+    left: 0px;
+}
+
+.photing {
+    justify-content: end;
+    align-content:center;
+    margin-top: 48px;
+    margin-right: 90px;
+}
+
+.max {
+    display: flex;
+    align-items: center;
+    margin-left: 112px;
+}
+
+.content {
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 124px;
+    margin-bottom: 18px;
+}
+
+.one {
+    width: 150px;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+.two {
+    width: 150px;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+.three {
+    width: 100px;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+.four {
+    width: 150px;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+.five {
+    width: 150px;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
