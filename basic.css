@@ -42,6 +42,12 @@ font-weight: 500;
 font-size: 16px;
 line-height: 20px;
 }
+
+.nav-item:hover {
+    color: #582066;
+    cursor: pointer;
+}
+
 .container{
     margin-right: 112px;
 }
@@ -54,16 +60,20 @@ line-height: 20px;
     font-size: 16px;
     line-height: 20px;
     color: #582066;
+    margin-block-start: 12px;
+margin-block-end: 12px;
 }
 
 .firststeps {
 font-family: 'Inter';
 font-style: normal;
-font-weight: 400;
-font-size: 32px;
-line-height: 180%;
+font-weight: 600;
+font-size: 64px;
+line-height: 72px;
 color: #282828;
 align-self: stretch;
+margin-block-start: 12px;
+margin-block-end: 12px;
 }
 
 .Story {
@@ -71,9 +81,12 @@ align-self: stretch;
 font-style: normal;
 font-weight: 400;
 font-size: 18px;
-line-height: 20px;
+line-height: 28px;
 color: #3D495E;
+margin-block-start: 12px;
+margin-block-end: 12px;
 }
+
 .button {
     display: flex;
     align-items:center;
@@ -130,26 +143,33 @@ height: 23.12px;
 .photing {
     justify-content: end;
     align-content:center;
-    margin-top: 48px;
 }
 
 .max {
     display: flex;
     align-items: center;
-    width: 1440px;
     padding-right: 32px;
     padding-left: 32px;
+    width: 1440px;
+}
+
+@media screen and (max-width: 900px) {
+    .max{
+        flex-wrap: wrap;
+    }
 }
 
 .content {
     display: flex;
     justify-content: center;
+    padding-top: 72px;
 }
 
 .text-container {
     display: flex;
     flex-direction: column;
     margin-bottom: 48px;
+    margin-right: 108px;
 }
 
 .text-and-button {
