@@ -45,7 +45,6 @@ cursor: pointer;
 }
 
 .button-nav-item:hover{
-    color: #582066;
    text-decoration: none !important;
 }
 
