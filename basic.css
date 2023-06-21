@@ -41,11 +41,11 @@ font-style: normal;
 font-weight: 500;
 font-size: 16px;
 line-height: 20px;
+cursor: pointer;
 }
 
 .nav-item:hover {
     color: #582066;
-    cursor: pointer;
 }
 
 .container{
