@@ -47,14 +47,10 @@ cursor: pointer;
 .nav-item:hover {
     color: #582066;
 }
-
-.button-nav {
-    text-decoration: none;
-}
-
-.button-nav-item:hover {
-    color: #582066;
-    text-decoration: none;
+.button-nav-item:visited, .button-nav-item:hover, .button-nav-item:active, .button-nav-item:focus{
+    color: #582066 !important;
+   text-decoration: none !important;
+   outline: none !important;
 }
 
 .container{
