@@ -48,6 +48,11 @@ cursor: pointer;
     color: #582066;
 }
 
+.button-nav-item:hover {
+    color: #582066;
+    text-decoration: none;
+}
+
 .container{
     margin-right: 112px;
 }
