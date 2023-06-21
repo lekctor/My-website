@@ -50,6 +50,7 @@ cursor: pointer;
 
 .nav-item-button{
     text-decoration: none !important;
+    color: #282828;
 }
 
 .nav-item-button:hover {
