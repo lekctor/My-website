@@ -48,15 +48,6 @@ cursor: pointer;
     color: #582066;
 }
 
-.button-nav-item:hover{
-   text-decoration: none !important;
-}
-
-.button-nav-item {
-    text-decoration: none !important;
-    color: #282828;
-}
-
 .container{
     margin-right: 112px;
 }
