@@ -200,6 +200,11 @@ height: 23.12px;
     font-family: 'Inter';
     justify-content: center;
 }
+.tehnol {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 40px auto 40px;
+}
 
 @media screen and (max-width: 800px) {
     .max{
