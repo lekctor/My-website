@@ -79,11 +79,10 @@ font-style: normal;
 font-weight: 600;
 font-size: 64px;
 line-height: 72px;
-color: #282828;
 align-self: stretch;
 margin-block-start: 12px;
 margin-block-end: 12px;
-background: linear-gradient(#5B3BEA, #3B866F)
+color:linear-gradient(#5B3BEA, #3B866F);
 }
 
 .Story {
