@@ -83,6 +83,7 @@ color: #282828;
 align-self: stretch;
 margin-block-start: 12px;
 margin-block-end: 12px;
+background: linear-gradient(#5B3BEA, #3B866F)
 }
 
 .Story {
@@ -192,12 +193,16 @@ height: 23.12px;
     align-items: center;
     padding-left: 32px;
     padding-right: 32px;
-    width: 1440px;
+    width: 1280px;
     justify-content: center;
 }
 .one {
-    font-size: 16px;
-    font-family: 'Inter';
+    color: #282828;
+    text-align: center;
+    font-size: 36px;
+    font-family: Inter;
+    font-weight: 600;
+    letter-spacing: -1.62px;
     justify-content: center;
 }
 .tehnol {
