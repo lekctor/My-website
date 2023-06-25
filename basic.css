@@ -202,6 +202,9 @@ height: 23.12px;
 }
 .tehnol {
     display: grid;
+}
+
+.footer-tehnol {
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: 40px auto 40px;
 }
