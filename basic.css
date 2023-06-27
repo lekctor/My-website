@@ -218,7 +218,8 @@ align-self: stretch;
 .box-container {
     width: 1280px;
 padding: 0px 150px;
-align-items: flex-start;
+flex-direction: row;
+flex-grow: 1 1;
 gap: 32px;
 height: 550px;
 }
