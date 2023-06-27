@@ -114,7 +114,7 @@ margin-block-end: 12px;
 }
 
 .button-text > a {
-    font-family: 'Inter';
+font-family: 'Inter';
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
@@ -138,7 +138,7 @@ text-decoration: none;
 }
 
 .button-img {
-    width: 24px;
+width: 24px;
 height: 23.12px;
 }
 
@@ -205,10 +205,10 @@ height: 23.12px;
     justify-content: center;
 }
 .tehnol {
-    display: flex;
-    padding-top: 40px;
-    padding-bottom: 80px;
-    flex-direction: column;
+display: flex;
+padding-top: 40px;
+padding-bottom: 80px;
+flex-direction: column;
 justify-content: center;
 align-items: center;
 gap: 8px;
@@ -216,7 +216,7 @@ align-self: stretch;
 }
 
 .box-container {
-    width: 1280px;
+width: 1280px;
 padding: 0px 150px;
 flex-direction: row;
 flex-grow: 1 1;
@@ -225,30 +225,28 @@ height: 550px;
 }
 
 .html-css {
-    padding: 56px 32px;
+padding: 56px 32px;
 justify-content: center;
 align-items: center;
 gap: 10px;
-flex: 1 0 0;
 align-self: stretch;
 border-radius: 24px;
 background: #F4F4F4;
 }
 
 .grid-photo {
-    width: 100px;
+width: 100px;
 height: 100px;
 }
 
 .all-footer {
-    flex-direction: column;
-align-items: center;
+flex-direction: column;
+justify-content: center;
 gap: 24px;
-flex: 1 0 0;
 }
 
 .html-and-css {
-    color: #282828;
+color: #282828;
 text-align: center;
 font-size: 32px;
 font-family: Inter;
@@ -257,7 +255,7 @@ letter-spacing: -1.44px;
 }
 
 .Basics {
-    color: #939397;
+color: #939397;
 text-align: center;
 font-size: 24px;
 font-family: Inter;
@@ -266,7 +264,7 @@ letter-spacing: -1.08px;
 }
 
 .flexbox-and-cssgrid {
-    flex-direction: column;
+flex-direction: column;
 align-self: stretch;
 color: #282828;
 text-align: center;
@@ -277,7 +275,7 @@ letter-spacing: -1.44px;
 }
 
 .flex-cssgrid {
-    padding: 48px 32px;
+padding: 48px 32px;
 justify-content: center;
 align-items: center;
 gap: 10px;
@@ -286,10 +284,10 @@ border-radius: 24px;
 background: #FBF1E7;
 }
 
-.javascript {
-    flex-direction: column;
+.javascript-text {
+flex-direction: column;
 align-self: stretch;
-    color: #282828;
+color: #282828;
 text-align: center;
 font-size: 32px;
 font-family: Inter;
@@ -298,7 +296,7 @@ letter-spacing: -1.44px;
 }
 
 .javascript {
-    padding: 48px 32px;
+padding: 48px 32px;
 justify-content: center;
 align-items: center;
 gap: 10px;
@@ -308,11 +306,10 @@ background: #F2F2F9;
 }
 
 .double-box {
-    display: flex;
+display: flex;
 flex-direction: column;
 align-items: flex-start;
 gap: 32px;
-flex: 1 0 0;
 align-self: stretch;
 }
 
