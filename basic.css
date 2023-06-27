@@ -206,7 +206,8 @@ height: 23.12px;
 }
 .tehnol {
     display: flex;
-    padding: 40px 80px 80px 80px;
+    padding-top: 40px;
+    padding-bottom: 80px;
     flex-direction: column;
 justify-content: center;
 align-items: center;
@@ -219,6 +220,7 @@ align-self: stretch;
 padding: 0px 150px;
 align-items: flex-start;
 gap: 32px;
+height: 550px;
 }
 
 .html-css {
@@ -302,6 +304,15 @@ gap: 10px;
 align-self: stretch;
 border-radius: 24px;
 background: #F2F2F9;
+}
+
+.double-box {
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 32px;
+flex: 1 0 0;
+align-self: stretch;
 }
 
 @media screen and (max-width: 800px) {
