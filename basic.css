@@ -219,6 +219,7 @@ align-self: stretch;
 width: 1280px;
 padding: 0px 150px;
 flex-direction: row;
+align-items:center;
 flex-grow: 1 1;
 gap: 32px;
 height: 550px;
@@ -241,7 +242,7 @@ height: 100px;
 
 .all-footer {
 flex-direction: column;
-justify-content: center;
+align-items: center;
 gap: 24px;
 }
 
