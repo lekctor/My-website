@@ -214,6 +214,7 @@ gap: 8px;
 }
 
 .box-container {
+display: flex;
 width: 1280px;
 padding: 0px 150px;
 flex-direction: row;
@@ -223,6 +224,7 @@ height: 550px;
 }
 
 .html-css {
+display: flex;
 padding: 56px 32px;
 justify-content: center;
 align-items: center;
