@@ -83,8 +83,6 @@ align-self: stretch;
 margin-block-start: 12px;
 margin-block-end: 12px;
 background: -webkit-linear-gradient(#5B3BEA, #3B866F);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
 
 .Story {
