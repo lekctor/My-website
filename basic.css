@@ -236,6 +236,16 @@ align-self: stretch;
 width: 50%;
 border-radius: 24px;
 background: #F4F4F4;
+transition: all .2s ease-in-out;
+}
+
+.html-css:hover {
+    border-radius: 24px;
+    background: linear-gradient(315deg, rgba(201, 201, 201, 0.50) 0%, #FFF 100%);
+    box-shadow: 0px 4px 50px 0px rgba(255, 221, 187, 0.30);
+    border: 2px solid rgba(209, 208, 208, 0.5);
+    transform: scale(1.03);
+    cursor: pointer;
 }
 
 .grid-photo {
@@ -287,6 +297,16 @@ gap: 10px;
 align-self: stretch;
 border-radius: 24px;
 background: #FBF1E7;
+transition: all .2s ease-in-out;
+}
+
+.flex-cssgrid:hover {
+border-radius: 24px;
+background: linear-gradient(315deg, #FFD7AE 0%, rgba(255, 233, 211, 0.50) 100%);
+box-shadow: 0px 4px 50px 0px rgba(255, 221, 187, 0.30);
+border: 2px solid #FFD7AE;
+transform: scale(1.03);
+cursor: pointer;
 }
 
 .javascript-text {
@@ -308,6 +328,16 @@ gap: 10px;
 align-self: stretch;
 border-radius: 24px;
 background: #F2F2F9;
+transition: all .2s ease-in-out;
+}
+
+.javascript:hover {
+    border-radius: 24px;
+background: linear-gradient(315deg, #CFCFFF 0%, rgba(242, 242, 249, 0.50) 100%);
+box-shadow: 0px 4px 50px 0px rgba(255, 221, 187, 0.30);
+border: 2px solid #CFCFFF;
+transform: scale(1.03);
+cursor: pointer;
 }
 
 .double-box {
