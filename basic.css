@@ -17,12 +17,15 @@
   }
   
   .logo {
+    cursor: pointer;
     gap: 8px;
     display: inline-flex;
     flex-direction: row;
     align-items: center;
+    text-decoration: none;
   }
-  .logo-text {
+
+  .logo-text  {
     font-family: 'Inter';
 font-style: normal;
 font-weight: 700;
@@ -95,13 +98,13 @@ background-clip: text;
 
 .Story {
     font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 28px;
-color: #3D495E;
-margin-block-start: 12px;
-margin-block-end: 12px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #3D495E;
+    margin-block-start: 12px;
+    margin-block-end: 12px;
 }
 
 .button {
