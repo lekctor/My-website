@@ -229,6 +229,7 @@ gap: 8px;
 
 .box-container {
 display: flex;
+flex-wrap: wrap;
 width: 1280px;
 padding: 0px 150px;
 flex-direction: row;
@@ -406,8 +407,18 @@ font-weight: 400;
 line-height: 20px;
 }
 
-@media screen and (max-width: 800px) {
+@media all and (max-width: 800px) {
     .max{
-        flex-wrap: wrap;
+        display: flex;
+        flex-flow: row wrap;
+    }
+    .text-container{
+        display: flex;
+        flex-flow: row wrap;
+    }
+    .box-container{
+        display: flex;
+        flex: 100%;
+        max-width: 100%;
     }
 }
